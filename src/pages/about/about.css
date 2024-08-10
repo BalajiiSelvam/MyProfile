@@ -1,6 +1,7 @@
 .about__container,
 .info__list,
-.stats {
+.stats,
+.resume__container {
     grid-template-columns: repeat(2, 1fr);
 } 
 
@@ -97,4 +98,21 @@
     font-weight: var(--weight-400);
     text-align: center;
     margin-top: 24px;
+}
+
+.resume__item{
+    position: relative;
+    padding-left: 60px;
+}
+
+.resume__item:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.resume__item::before{
+    content: '';
+    position: absolute;
+    inset-block: 20px;
+    left: 20px;
+    border-left: 1px solid var(--border-color);
 }
