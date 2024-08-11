@@ -22,7 +22,7 @@ function PortfolioItem({img, title, details}) {
                      {title}
                  </h3>
                  <ul className='modal__list grid'>
-                     {details.map(({icon, tilte, desc}, index)=>{
+                     {details.map(({icon, title, desc}, index)=>{
                          return(
                              <li className='modal__item' key={index}>
                                  <span className='item__icon'>
