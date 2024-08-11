@@ -7,6 +7,7 @@
     width: 100%;
     padding: 60px 30px;
     transition: all 0.5s cubic-bezier(0.77,0.8,0.05,1);
+    z-index: 100;
 }
 
 .show-menu{
@@ -45,6 +46,7 @@
     background-color: 5px;
     background-color: var(--container-color);
     padding: 12px 10px;
+    z-index: 100;
 }
 
 .nav__toggle span{
@@ -82,6 +84,7 @@
         right: 30px;
         display: flex;
         align-items: center;
+        z-index: 100;
     }
     .nav__item{
         margin-block: 20px;

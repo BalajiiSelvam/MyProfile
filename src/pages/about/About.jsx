@@ -4,8 +4,8 @@ import Stats from '../../components/stats'
 import {FaDownload} from 'react-icons/fa';
 import CV from "../../assets/steve-Cv.pdf";
 import Skills from '../../components/skills';
-// import {resume} from '../../data';
-// import {ResumeItem} from '../../components/ResumeItem'
+import {resume} from '../../data';
+import ResumeItem from '../../components/ResumeItem'
 import "./about.css";
 
 export const About = () => {
@@ -24,7 +24,7 @@ export const About = () => {
             <ul className="info__list grid">
               <Info/>
             </ul>
-            <a href={CV} download='' className='button'>Download CV{' '} <span className="button__icon"><FaDownload/></span></a>
+            <a href={CV} download='' className='button'>Download Cv{' '} <span className="button__icon"><FaDownload/></span></a>
           </div>
           <div className='stats grid'>
           <Stats/>
@@ -46,23 +46,20 @@ export const About = () => {
       <h3 className='section__subtitle subtitle__center'>Experience & Education</h3>
       <div className='resume__container grid'>
           <div className='resume__data'>
-            {resume.map((val)=>{
-              if(val.category === 'experience'){
-                return(
-                   <ResumeItem key={val.id} {...val}/>
-                );
+            {resume.map((val)=> {
+              if (val.category === 'experience'){
+                return <ResumeItem key={val.id} {...val}/>;
               }
             })}
           </div>
           <div className='resume__data'>
             {resume.map((val)=>{
               if(val.category === 'education'){
-                return (
-                  <ResumeItem key={val.id} {...val}/>
-                );
+                return <ResumeItem key={val.id} {...val}/>;
               }
             })}
           </div>
+
         </div>
       </section>
       
