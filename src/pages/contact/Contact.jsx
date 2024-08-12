@@ -21,8 +21,9 @@ export const Contact = () => {
           <h3 className='contact__title'> Dont't be Shy !</h3>
 
           <p className='contact__description'>
-            Feel Free to get in touch with me. I am always open to discussing
-            new projects, creative ideas or opportunities to be part of your visions.
+            blah blah blah blah blah blah blah blah blah blah blah 
+            blah blah blah blah blah blah blah .... blah blah blah 
+            blah blah blah blah blah blah blah blah blah ...
           </p>
 
           <div className='contact__info'>
