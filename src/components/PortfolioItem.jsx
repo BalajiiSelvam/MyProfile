@@ -5,7 +5,7 @@ function PortfolioItem({img, title, details}) {
     const [modal, setModal] = useState(false);
     const toggleModal = () => {
         setModal(!modal);
-    }
+    };
   return (
     <div className='portfolio__item'>
         <img src={img} alt='' className='portfolio__img'/>
@@ -43,7 +43,7 @@ function PortfolioItem({img, title, details}) {
         )}
       
     </div>
-  )
+  );
 }
 
 export default PortfolioItem

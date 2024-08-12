@@ -30,7 +30,7 @@ export const Contact = () => {
               <FaEnvelopeOpen className='info__icon'/>
 
               <div>
-                <span className='info__title'>Mail me -- </span>
+                <span className='info__title'>Mail me</span>
                 <h4 className='info__desc'> balajiselvam245@gmail.com</h4>
               </div>
             </div>
@@ -39,7 +39,7 @@ export const Contact = () => {
               <FaPhoneSquareAlt className='info__icon'/>
 
               <div>
-                <span className='info__title'>Call me -- </span>
+                <span className='info__title'>Call me</span>
                 <h4 className='info__desc'>+91 63829 10520</h4>
               </div>
             </div>
@@ -49,7 +49,7 @@ export const Contact = () => {
             <a href="https://facebook.com" className="contact__social-link"> <FaFacebookF/> </a>
             <a href="https://twitter.com" className="contact__social-link"> <FaTwitter/> </a>
             <a href="https://youtube.com" className="contact__social-link"> <FaYoutube/> </a>
-            <a href="https://dribble.com" className="contact__social-link"> <FaDribbble/> </a>
+            <a href="https://dribbble.com" className="contact__social-link"> <FaDribbble/> </a>
           </div>
         </div>
 

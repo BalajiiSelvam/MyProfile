@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react';
 import {themes} from '../data';
 import ThemeItem from './ThemeItem';
 import {FaCog} from 'react-icons/fa';
 import {BsSun, BsMoon} from 'react-icons/bs';
-import './themes.css'
+import './themes.css';
 
 const getStorageColor = () => {
     let color = 'hsl(19, 96%, 52%)';
@@ -16,7 +16,7 @@ const getStorageColor = () => {
 const getStorageTheme = () => {
     let theme = 'light-theme';
     if(localStorage.getItem('theme')){
-        color = localStorage.getItem('theme')
+        theme = localStorage.getItem('theme')
     }
     return theme;
 };
@@ -28,7 +28,7 @@ function Themes() {
 
     const changeColor = (color) => {
         setColor(color);
-    }
+    };
 
     const toggleTheme = () => {
         if(theme === 'light-theme'){
@@ -45,7 +45,7 @@ function Themes() {
     }, [color])
 
     useEffect(()=>{
-        document.documentElement.className = theme ;
+        document.documentElement.className = theme;
         localStorage.setItem('theme',theme);
     }, [theme])
 

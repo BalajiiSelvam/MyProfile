@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1200px) {
     .grid{
-        gap: 2px;
+        gap: 20px;
     }
 
     .home__data{
@@ -30,13 +30,9 @@
         width: 22px;
     }
 
-    .skills__title::before{
+    /* .skills__title::before{
         width: 22px;
-    }
-
-    .stats__title::before{
-        width: 22px;
-    }
+    } */
 
     .skills__container{
         row-gap: 32px;
@@ -88,6 +84,11 @@
 @media screen and (max-width: 1024px) {
     .container{
             max-width: 720px;
+    }
+
+    .home{
+        padding: 20px;
+        grid-template-columns: 5fr 7fr;
     }
 
     .home__data{
@@ -203,7 +204,7 @@
 
     .nav__icon,
     .nav__name{
-        font-size: var(--h3--font-size);
+        font-size: var(--h3-font-size);
     }
 
     .skills__container{
@@ -216,6 +217,10 @@
 
     .modal__list{
         grid-template-columns: 1fr;
+    }
+
+    .modal__img{
+        height: 300px;
     }
 
     .form__input-group{
@@ -257,7 +262,7 @@
     }
 
     .home__title{
-        font-size: var(--h1--font-size);
+        font-size: var(--h1-font-size);
     }
 
     .home__description{

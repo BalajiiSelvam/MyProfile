@@ -21,7 +21,7 @@
     border-radius: 0 5px 5px 0;
 }
 
-.style__switcher-items{
+.style__switcher-item{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 4px;

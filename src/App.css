@@ -70,7 +70,7 @@
     /* overflow-y: hidden;  */
 }
 
-body,input,testarea{
+body,input,textarea{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: var(--weight-500);
