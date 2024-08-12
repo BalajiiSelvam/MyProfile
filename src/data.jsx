@@ -61,86 +61,86 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Balaji',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Selvam',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '19 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Indian',
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: 'Designation : ',
+    description: 'Engineer',
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
+    title: 'State : ',
+    description: 'Tamilnadu',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+91 6382910 520',
   },
 
   {
     id: 8,
-    title: 'Email : ',
-    description: 'you@mail.com',
+    title: 'Gmail : ',
+    description: 'balajiselvam245@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'LinkedIn : ',
+    description: 'https://tinyurl.com/balajiSelvam',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'Tamil, English',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '0+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '0+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '0+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
+    no: '0+',
     title: ' Awards <br /> Won',
   },
 ];
@@ -205,48 +205,48 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '30',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '40',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '60',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'C',
+    percentage: '70',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
-  },
-
-  {
-    id: 6,
-    title: 'Jquery',
+    title: 'Python',
     percentage: '50',
   },
 
   {
+    id: 6,
+    title: 'React',
+    percentage: '40',
+  },
+
+  {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'SQL',
+    percentage: '60',
   },
 
   {
     id: 8,
-    title: 'React',
+    title: 'Flutter',
     percentage: '45',
   },
 ];
