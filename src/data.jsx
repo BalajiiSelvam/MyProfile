@@ -169,7 +169,7 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '0',
-    title: 'role <span>  </span>',
+    title: 'role <span> Company  </span>',
     desc: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah ...',
   },
 
