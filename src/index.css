@@ -266,13 +266,13 @@
     } */
 
     .home__img {
-        width: 270px;         /* Ensures the image is 270px wide */
-        height: 270px;        /* Ensures the image is 270px tall */
-        border-radius: 50%;   /* Makes the image circular */
-        margin-top: 20px;     /* Adds some space above the image */
-        display: block;       /* Makes sure the image is a block element */
-        margin-left: auto;    /* Centers the image horizontally */
-        margin-right: auto;   /* Centers the image horizontally */
+        width: 270px;         
+        height: 270px;        
+        border-radius: 50%;   
+        margin-top: 20px;     
+        display: block;       
+        margin-left: auto;   
+        margin-right: auto;   
     }
     
 
@@ -316,13 +316,13 @@
         display: none;
     } */
     .home__img {
-        width: 270px;         /* Ensures the image is 270px wide */
-        height: 270px;        /* Ensures the image is 270px tall */
-        border-radius: 50%;   /* Makes the image circular */
-        margin-top: 20px;     /* Adds some space above the image */
-        display: block;       /* Makes sure the image is a block element */
-        margin-left: auto;    /* Centers the image horizontally */
-        margin-right: auto;   /* Centers the image horizontally */
+        width: 270px;         
+        height: 270px;       
+        border-radius: 50%;   
+        margin-top: 20px;     
+        display: block;       
+        margin-left: auto;   
+        margin-right: auto;  
     }
     
     .home__content {
